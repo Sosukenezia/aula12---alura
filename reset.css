@@ -1,0 +1,61 @@
+/* Reset CSS */
+
+/* Remove padding e margin de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove o estilo padrão de listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Remove bordas e espaçamentos em imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove espaço abaixo da imagem */
+}
+
+/* Remove o sublinhado de links */
+a {
+    text-decoration: none;
+    color: inherit; /* Herda a cor do elemento pai */
+}
+
+/* Define uma fonte padrão para o corpo */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Define a altura mínima para o corpo */
+html, body {
+    height: 100%;
+}
+
+/* Define um estilo básico para botões */
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Estiliza tabelas */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Define o estilo básico para inputs */
+input, textarea {
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: inherit;
+}
+
+/* Define o estilo básico para os cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remove o peso bold padrão */
+}
